@@ -7,7 +7,7 @@ api_key = "2dc854e502aed8566d46a5f3eea298ba"
 account_sid = "AC21ac65cbac4acb8953ec23d5acec985a"
 auth_token = "173d64476bb2cbf58cf2d6735231f7a9"
 from_num = "+16204496534"
-message_service_sid = "MG54c377f497bdc395db859ea85838c160"
+
 
 my_email = "ituairegbeyanose@gmail.com"
 password = "lnokyanldtoeyybi"
