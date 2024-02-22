@@ -14,8 +14,8 @@ password = os.environ["email_password"]
 
 # MY_LAT = 6.687590
 # MY_LONG = 3.234390
-MY_LAT = 9.082320
-MY_LONG = 6.000030
+MY_LAT = 6.687590
+MY_LONG = 3.234390
 
 parameters = {
     "lat": MY_LAT,
