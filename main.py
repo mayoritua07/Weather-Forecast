@@ -3,14 +3,14 @@ import requests
 import os
 from twilio.rest import Client
 from twilio.http.http_client import TwilioHttpClient
-api_key = "2dc854e502aed8566d46a5f3eea298ba"
+# api_key = 
 account_sid = "AC21ac65cbac4acb8953ec23d5acec985a"
-auth_token = "173d64476bb2cbf58cf2d6735231f7a9"
+# auth_token =
 from_num = "+16204496534"
 
 
 my_email = "ituairegbeyanose@gmail.com"
-password = "lnokyanldtoeyybi"
+# password = 
 
 # MY_LAT = 6.687590
 # MY_LONG = 3.234390
