@@ -16,7 +16,7 @@ env:
   api_key: ${{ secrets.API_KEY }}
   auth_token: ${{ secrets.AUTH_TOKEN }}
   email_password: ${{ secrets.EMAIL_PASSWORD }}
-  
+  account_sid: ${{ secrets.ACCOUNT_SID }}
 
 jobs:
   build:
