@@ -48,14 +48,14 @@ if rain_likely_hood:
     # proxy_client = TwilioHttpClient()
     # proxy_client.session.proxies = {"https": os.environ['https_proxy']}
     # client = Client(account_sid,auth_token, http_client=proxy_client)
-    client = Client(account_sid, auth_token)
-    message = client.messages.create(
-        body="Get prepared i fore see a storm coming",
-        from_=f"{from_num}",
-        to="+2348125691094"
-    )
-    print(message.status)
-    print(message.sid)
+    # client = Client(account_sid, auth_token)
+    # message = client.messages.create(
+    #     body="Get prepared i fore see a storm coming",
+    #     from_=f"{from_num}",
+    #     to="+2348125691094"
+    # )
+    # print(message.status)
+    # print(message.sid)
     with smtplib.SMTP_SSL("smtp.gmail.com", port=465) as connection:
         connection.login(my_email, password=password)
         connection.sendmail(from_addr=my_email, to_addrs="ituadavid200527@gmail.com",
