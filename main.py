@@ -1,11 +1,11 @@
 import smtplib
 import requests
 import os
-from twilio.rest import Client
-from twilio.http.http_client import TwilioHttpClient
+# from twilio.rest import Client
+# from twilio.http.http_client import TwilioHttpClient
 api_key = os.environ["api_key"]
-account_sid = os.environ["account_sid"]
-auth_token = os.environ["auth_token"]
+# account_sid = os.environ["account_sid"]
+# auth_token = os.environ["auth_token"]
 from_num = "+16204496534"
 
 
